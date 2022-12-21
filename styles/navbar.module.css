@@ -1,0 +1,20 @@
+.mainnav ul {
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+}
+
+.mainnav ul li {
+   margin: 0 24px;
+   list-style: none;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+   .mainnav ul li {
+      margin: 0 6px;
+      list-style: none;
+      font-weight: bold;
+   }
+}
